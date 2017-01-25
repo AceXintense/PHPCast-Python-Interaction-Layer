@@ -1,9 +1,5 @@
 import requests
-from lib.config import get_domain
-
-
-def api_issues():
-    print('Cannot communicate with the API.')
+from lib.config import get_domain, api_issues
 
 
 def get_volume(session):

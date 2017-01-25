@@ -8,3 +8,6 @@ def get_domain():
         return development_domain
     else:
         return live_domain
+
+def api_issues():
+    print('Cannot communicate with the API.')
